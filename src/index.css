@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*
+{
+    margin: 0;
+    padding: 0;
+    /* font family: 'Quicksand', sans-serif; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fffce2;
+}
+
+body::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#e91e63), to(#ffc107)); 
+    background: linear-gradient(#e91e63, #ffc107);
+    -webkit-clip-path: circle(38% at 20% 5%);
+    clip-path: circle(38% at 20% 5%);
+}
+
+body::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#da00ff)); 
+    background: linear-gradient(#ffffff, #da00ff);
+    -webkit-clip-path: circle(38% at 80% 100%);
+    clip-path: circle(38% at 80% 100%);
 }
