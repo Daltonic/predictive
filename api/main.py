@@ -25,7 +25,7 @@ app.add_middleware(
 )
 
 # Loading trained prediction model
-model = pickle.load(open('hireable.pkl', 'rb'))
+model = pickle.load(open('../model/hireable.pkl', 'rb'))
 
 # Defining model interface class
 class Candidate(BaseModel):
