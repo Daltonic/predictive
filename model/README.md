@@ -1,8 +1,8 @@
-# How to Build a Predictive Site With React and Python (Part One)
+# How to Build a Predictive Site With React and Python (Part One: Model Development)
 
-Read the full tutorial here: [**>> How to Build a Predictive Site With React and Python (Part One)**](https://daltonic.github.io)
+Read the full tutorial here: [**>> How to Build a Predictive Site With React and Python (Part One: Model Development)**](https://daltonic.github.io)
 
-This example shows How to Build a Predictive Site With React and Python (Part One):
+This example shows How to Build a Predictive Site With React and Python (Part One: Model Development):
 
 ![Model Developed In Anaconda Spyder](../screenshots/model/1.png)
 <center><figcaption>Model Developed In Anaconda Spyder</figcaption></center>
