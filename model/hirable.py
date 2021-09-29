@@ -1,9 +1,6 @@
 # Importing Libraries
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import sklearn
 
 # Importing Dataset
 dataset = pd.read_csv('hirable.csv')
@@ -50,6 +47,8 @@ from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier
 model=RandomForestClassifier(n_estimators=100)
 model.fit(X_train,y_train)
+
+# Prediction and testing
 y_pred=model.predict(X_test)
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 print("Classification Report RF:\n",classification_report(y_test,y_pred))
