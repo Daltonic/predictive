@@ -24,12 +24,14 @@ To run the demo follow these steps:
 4. Download the model folder from this [link](https://downgit.github.io/#/home?url=https:%2F%2Fgithub.com%2FDaltonic%2Fpredictive%2Ftree%2Fmain%2Fmodel).
 5. Unzip **model.zip** and place contents on a unique folder. You should have something like this.
 <br/>
+
 ![Model File Structure](../screenshots/model/2.png)
 <center><figcaption>Model File Structure</figcaption></center>
 <br/>
 
 6. Open Anaconda Navigator and lunch spyder from the option.
 <br/>
+
 ![Anaconda Navigator](../screenshots/model/3.png)
 <center><figcaption>Anaconda Navigator</figcaption></center>
 <br/>
@@ -38,6 +40,7 @@ To run the demo follow these steps:
 
 8. Run the script using the green play button.
 <br/>
+
 ![Run Codes](../screenshots/model/4.png)
 <center><figcaption>Run Codes</figcaption></center>
 <br/>
