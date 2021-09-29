@@ -21,24 +21,25 @@ To run the demo follow these steps:
 1. Head to [Anaconda](https://www.anaconda.com/products/individual) Site
 2. On the page download Anaconda for your operating system.
 3. Install the Anaconda package to your computer.
-4. Download the model folder from this [link](https://downgit.github.io/#/home?url=https:%2F%2Fgithub.com%2FDaltonic%2Fpredictive%2Ftree%2Fmain%2Fmodel).
-5. Unzip **model.zip** and place contents on a unique folder. You should have something like this.
+4. Visit [https://downgit.github.io/](https://downgit.github.io/). 
+5. Paste ```https://github.com/Daltonic/predictive/tree/main/model``` in the field thereon and click on the download button.
+6. Unzip **model.zip** and place contents on a unique folder. You should have something like this.
 <br/>
 
 ![Model File Structure](../screenshots/model/2.png)
 <center><figcaption>Model File Structure</figcaption></center>
 <br/>
 
-6. Open Anaconda Navigator and lunch spyder from the option.
+7. Open Anaconda Navigator and lunch spyder from the option.
 <br/>
 
 ![Anaconda Navigator](../screenshots/model/3.png)
 <center><figcaption>Anaconda Navigator</figcaption></center>
 <br/>
 
-7. Using *spyder* locate and open **hireable.py** in the unique folder you placed it.
+8. Using *spyder* locate and open **hireable.py** in the unique folder you placed it.
 
-8. Run the script using the green play button.
+9. Run the script using the green play button.
 <br/>
 
 ![Run Codes](../screenshots/model/4.png)

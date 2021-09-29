@@ -21,22 +21,23 @@ This demo uses:
 
 To run the demo follow these steps:
 
-1. Download the API folder from this [link](https://downgit.github.io/#/home?url=https:%2F%2Fgithub.com%2FDaltonic%2Fpredictive%2Ftree%2Fmain%2Fapi).
-2. Unzip **api.zip** and place contents on a unique folder. You should have something like this.
+1. Visit [https://downgit.github.io/](https://downgit.github.io/). 
+2. Paste ```https://github.com/Daltonic/predictive/tree/main/api``` in the field thereon and click on the download button.
+3. Unzip **api.zip** and place contents on a unique folder. You should have something like this.
 
 ![API File Structure](../screenshots/api/1.png)
 <center><figcaption>API File Structure</figcaption></center>
 <br/>
 
-3. Place the **api** folder *side-by-side* with the **model** folder. It should look like this.
+4. Place the **api** folder *side-by-side* with the **model** folder. It should look like this.
 ![Project Structure](../screenshots/api/2.png)
 <center><figcaption>Project Structure</figcaption></center>
 <br/>
 
-4. Open the **api** folder in VSCode.
-5. Head to Python's Website and download version 3.9.7 or later for your operating system.
-6. Install the Python compiller in your computer and add path to variables.
-7. Install the following packages.
+5. Open the **api** folder in VSCode.
+6. Head to Python's Website and download version 3.9.7 or later for your operating system.
+7. Install the Python compiller in your computer and add path to variables.
+8. Install the following packages.
 ```bash
     pip install fastapi
     pip install uvicorn[standard]
