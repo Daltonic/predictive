@@ -33,7 +33,7 @@ class Candidate(BaseModel):
     bsc: float
     workex: int
     etest_p: float
-    msc: int
+    msc: float
 
 # The home route and response
 @app.get("/")

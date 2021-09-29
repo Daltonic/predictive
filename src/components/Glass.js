@@ -22,7 +22,7 @@ function Glass() {
         alert(msg)
         reset()
       })
-      .catch((error) => console.log(error))
+      .catch((error) => alert(`Error: ${error.message}`))
   }
 
   const reset = () => {
