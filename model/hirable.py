@@ -39,10 +39,6 @@ y = dataset.status
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y,train_size=0.8,random_state=1)
 
-# Fitting with descision tree model
-from sklearn import metrics
-from sklearn.metrics import classification_report
-
 # Fitting with random forest model
 from sklearn.ensemble import RandomForestClassifier
 model=RandomForestClassifier(n_estimators=100)
@@ -50,6 +46,10 @@ model.fit(X_train,y_train)
 
 # Prediction and testing
 y_pred=model.predict(X_test)
+
+# Report and Accuracy Score
+from sklearn import metrics
+from sklearn.metrics import classification_report
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 print("Classification Report RF:\n",classification_report(y_test,y_pred))
 

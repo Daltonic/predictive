@@ -1,8 +1,8 @@
-# How to Build a Predictive Site With React and Python (Part Three: Web Development)
+# How to Build a Predictive Machine Learning Site With React and Python (Part Three: Web Development)
 
-Read the full tutorial here: [**>> How to Build a Predictive Site With React and Python (Part Three: Web Development)**](https://daltonic.github.io)
+Read the full tutorial here: [**>> How to Build a Predictive Machine Learning Site With React and Python (Part Three: Web Development)**](https://daltonic.github.io)
 
-This example shows How to Build a Predictive Site With React and Python (Part Three: Web Development):
+This example shows How to Build a Predictive Machine Learning Site With React and Python (Part Three: Web Development):
 
 ![Web UI Developed](./screenshots/web/0.gif)
 <center><figcaption>Web UI Developed</figcaption></center>

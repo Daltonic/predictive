@@ -1,8 +1,8 @@
-# How to Build a Predictive Site With React and Python (Part Two: API Development)
+# How to Build a Predictive Machine Learning Site With React and Python (Part Two: API Development)
 
-Read the full tutorial here: [**>> How to Build a Predictive Site With React and Python (Part Two: API Development)**](https://daltonic.github.io)
+Read the full tutorial here: [**>> How to Build a Predictive Machine Learning Site With React and Python (Part Two: API Development)**](https://daltonic.github.io)
 
-This example shows How to Build a Predictive Site With React and Python (Part Two: API Development):
+This example shows How to Build a Predictive Machine Learning Site With React and Python (Part Two: API Development):
 
 ![API Developed In VSCode](../screenshots/api/0.gif)
 <center><figcaption>API Developed In VSCode</figcaption></center>
