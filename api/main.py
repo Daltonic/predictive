@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-# Initializing the fast API module
+# Setting up the fast API server
 app = FastAPI()
 
 origins = [
@@ -24,10 +24,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Loading trained prediction model
+# Loading up the trained model
 model = pickle.load(open('../model/hireable.pkl', 'rb'))
 
-# Defining model interface class
+# Defining the model input types
 class Candidate(BaseModel):
     gender: int
     bsc: float
@@ -35,12 +35,12 @@ class Candidate(BaseModel):
     etest_p: float
     msc: float
 
-# The home route and response
+# Setting up the home route
 @app.get("/")
 def read_root():
     return {"data": "Welcome to online employee hirability prediction model"}
 
-# The prediction route
+# Setting up the prediction route
 @app.post("/prediction/")
 async def get_predict(data: Candidate):
     sample = [[
@@ -60,5 +60,6 @@ async def get_predict(data: Candidate):
         }
     }
 
+# Configuring the server host and port
 if __name__ == '__main__':
     uvicorn.run(app, port=8080, host='0.0.0.0')
