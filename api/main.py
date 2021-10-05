@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-# Setting up the fast API server
+# Initializing the fast API server
 app = FastAPI()
 
 origins = [
@@ -38,7 +38,7 @@ class Candidate(BaseModel):
 # Setting up the home route
 @app.get("/")
 def read_root():
-    return {"data": "Welcome to online employee hirability prediction model"}
+    return {"data": "Welcome to online employee hireability prediction model"}
 
 # Setting up the prediction route
 @app.post("/prediction/")
